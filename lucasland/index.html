@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Land - Logo Concepts</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Oswald:wght@700&family=Pacifico&family=Dancing+Script:wght@700&display=swap');
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #f0f0f0; margin: 0; padding: 0; color: #333; }
+        .navbar { background: #111; padding: 15px 30px; display: flex; gap: 20px; position: sticky; top: 0; z-index: 100;}
+        .navbar a { color: #fff; text-decoration: none; font-weight: bold; text-transform: uppercase; font-size: 14px; }
+        .navbar a:hover { color: #D32F2F; }
+        .proof-container { max-width: 1200px; margin: 40px auto; background: #fff; padding: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-radius: 8px; }
+        .header { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #333; padding-bottom: 20px; }
+        .header h1 { margin: 0; font-size: 28px; text-transform: uppercase; letter-spacing: 2px; }
+        .header p { margin: 5px 0 0; font-size: 14px; color: #666; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .concept { border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
+        .concept-header { background: #333; color: #fff; padding: 10px 15px; }
+        .concept-header h2 { margin: 0; font-size: 16px; text-transform: uppercase; }
+        .concept-header p { margin: 5px 0 0; font-size: 12px; color: #ccc; }
+        .light-bg { background: #ffffff; padding: 40px; display: flex; justify-content: center; align-items: center; border-bottom: 1px solid #ddd; height: 160px;}
+        .dark-bg { background: #1a1a1a; padding: 40px; display: flex; justify-content: center; align-items: center; height: 160px;}
+        
+        .block-1 { font-family: 'Montserrat', sans-serif; font-weight: 900; }
+        .block-2 { font-family: 'Oswald', sans-serif; font-weight: 700; }
+        .script-1 { font-family: 'Pacifico', cursive; font-weight: normal; }
+        .script-2 { font-family: 'Dancing Script', cursive; font-weight: 700; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../index.html">&larr; Back to Main</a>
+        <a href="#block">Block Concepts</a>
+        <a href="#script">Script Concepts</a>
+    </div>
+    <div class="proof-container">
+        <div class="header">
+            <h1>Lucas Land</h1>
+            <p>Logo Concept Explorations - Block & Script Typography</p>
+        </div>
+        
+        <div class="grid">
+            <!-- Option 1: Heavy Block -->
+            <div class="concept" id="block">
+                <div class="concept-header">
+                    <h2>1. Heavy Block</h2>
+                    <p>Ultra-bold Montserrat with strong tracking for maximum authority.</p>
+                </div>
+                <div class="light-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <text x="200" y="75" text-anchor="middle" class="block-1" font-size="44" fill="#111" letter-spacing="2">LUCAS LAND</text>
+                    </svg>
+                </div>
+                <div class="dark-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <text x="200" y="75" text-anchor="middle" class="block-1" font-size="44" fill="#fff" letter-spacing="2">LUCAS LAND</text>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Option 2: Industrial Block -->
+            <div class="concept">
+                <div class="concept-header">
+                    <h2>2. Industrial Stamp</h2>
+                    <p>Tall, structured Oswald font enclosed in a classic stadium pill border.</p>
+                </div>
+                <div class="light-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <rect x="30" y="20" width="340" height="80" rx="40" fill="none" stroke="#D32F2F" stroke-width="4" />
+                        <text x="200" y="75" text-anchor="middle" class="block-2" font-size="48" fill="#111" letter-spacing="4">LUCAS LAND</text>
+                    </svg>
+                </div>
+                <div class="dark-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <rect x="30" y="20" width="340" height="80" rx="40" fill="none" stroke="#D32F2F" stroke-width="4" />
+                        <text x="200" y="75" text-anchor="middle" class="block-2" font-size="48" fill="#fff" letter-spacing="4">LUCAS LAND</text>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Option 3: Smooth Script -->
+            <div class="concept" id="script">
+                <div class="concept-header">
+                    <h2>3. Smooth Script</h2>
+                    <p>Pacifico font offering a friendly, smooth cursive signature with a dynamic swoosh.</p>
+                </div>
+                <div class="light-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <text x="200" y="70" text-anchor="middle" class="script-1" font-size="48" fill="#111">Lucas Land</text>
+                        <path d="M 80 95 Q 200 125 320 95" stroke="#D32F2F" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="dark-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <text x="200" y="70" text-anchor="middle" class="script-1" font-size="48" fill="#fff">Lucas Land</text>
+                        <path d="M 80 95 Q 200 125 320 95" stroke="#D32F2F" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Option 4: Elegant Script -->
+            <div class="concept">
+                <div class="concept-header">
+                    <h2>4. Energetic Script</h2>
+                    <p>Dancing Script for a lively, hand-lettered aesthetic that feels personal and premium.</p>
+                </div>
+                <div class="light-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <text x="200" y="75" text-anchor="middle" class="script-2" font-size="52" fill="#111">Lucas Land</text>
+                    </svg>
+                </div>
+                <div class="dark-bg">
+                    <svg width="400" height="120" viewBox="0 0 400 120">
+                        <text x="200" y="75" text-anchor="middle" class="script-2" font-size="52" fill="#fff">Lucas Land</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
