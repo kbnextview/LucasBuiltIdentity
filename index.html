@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html><head><style>@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500;700&display=swap');
+<html><head><style>
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Dancing+Script:wght@700&display=swap');
 body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background: #f0f0f0; color: #333; }
 .navbar { background: #111; padding: 15px 30px; display: flex; gap: 20px; position: sticky; top: 0; z-index: 100;}
 .navbar a { color: #fff; text-decoration: none; font-weight: bold; text-transform: uppercase; font-size: 14px; }
@@ -7,38 +8,42 @@ body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; p
 .container { max-width: 1000px; margin: 40px auto; padding: 20px; background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
 h1, h2 { text-transform: uppercase; text-align: center; }
 .section { margin-bottom: 60px; padding-top: 20px; }
-.asset { background: #f9f9f9; border: 1px solid #ddd; padding: 40px; display: flex; justify-content: center; align-items: center; margin-bottom: 20px; }
+.asset { background: #f9f9f9; border: 1px solid #ddd; padding: 40px; display: flex; justify-content: center; align-items: center; margin-bottom: 20px; transition: transform 0.2s; }
+.asset:hover { transform: translateY(-5px); }
 .shadow { box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
 .svg-1 { font-family: 'Teko', sans-serif; font-weight: 700; text-transform: uppercase; }
-.font-bold { font-family: 'Helvetica', sans-serif; font-weight: bold; }
-.font-regular { font-family: 'Helvetica', sans-serif; font-weight: normal; }
+.script-2 { font-family: 'Dancing Script', cursive; font-weight: 700; }
 </style></head>
 <body>
 <div class="navbar"><a href="index.html">Home</a><a href="logo1/index.html">Logo 1 Proof</a><a href="logo2/index.html">Logo 2 Proof</a><a href="lucasland/index.html">Lucas Land Proof</a></div>
 <div class="container"><h1>Lucas Built Identity</h1>
 <p style="text-align:center;">Select a proof below to view the full identity system.</p>
-<div style="display:flex; gap:20px; justify-content:center;">
-    <div style="text-align:center;"><a href="logo1/index.html"><div class="asset">
-<svg width="400" height="120" viewBox="0 0 400 120">
-    <text x="200" y="60" text-anchor="middle" class="svg-1" font-size="52" fill="#111" letter-spacing="1">LUCAS BUILT</text>
-    <rect x="50" y="70" width="300" height="8" fill="#D32F2F" />
-    <text x="200" y="100" text-anchor="middle" class="svg-1" font-size="24" fill="#111" letter-spacing="8">HOLDINGS</text>
-</svg>
-</div><h3>Logo 1 (Baseline)</h3></a></div>
-    <div style="text-align:center;"><a href="logo2/index.html"><div class="asset">
-<svg width="400" height="120" viewBox="0 0 400 120">
-    <rect x="40" y="15" width="320" height="6" fill="#D32F2F" />
-    <text x="200" y="65" text-anchor="middle" class="svg-1" font-size="52" fill="#111" letter-spacing="1">LUCAS BUILT</text>
-    <rect x="40" y="75" width="320" height="6" fill="#D32F2F" />
-    <text x="200" y="105" text-anchor="middle" class="svg-1" font-size="24" fill="#111" letter-spacing="8">HOLDINGS</text>
-</svg>
-</div><h3>Logo 2 (Channel)</h3></a></div>
 
-    <div style="text-align:center;">
-        <a href="lucasland/index.html" style="text-decoration:none; color:inherit;">
-            <div class="asset" style="font-family: 'Helvetica', sans-serif; font-weight: bold; font-size: 24px; color: #111;">Lucas Land</div>
-            <h3>Lucas Land Concepts</h3>
-        </a>
-    </div>
+<div style="display:flex; gap:20px; justify-content:center; margin-bottom: 40px;">
+    <div style="text-align:center;"><a href="logo1/index.html" style="text-decoration:none; color:inherit;"><div class="asset">
+        <svg width="400" height="120" viewBox="0 0 400 120">
+            <text x="200" y="60" text-anchor="middle" class="svg-1" font-size="52" fill="#111" letter-spacing="1">LUCAS BUILT</text>
+            <rect x="50" y="70" width="300" height="8" fill="#D32F2F" />
+            <text x="200" y="100" text-anchor="middle" class="svg-1" font-size="24" fill="#111" letter-spacing="8">HOLDINGS</text>
+        </svg>
+    </div><h3>Logo 1 (Baseline)</h3></a></div>
+    <div style="text-align:center;"><a href="logo2/index.html" style="text-decoration:none; color:inherit;"><div class="asset">
+        <svg width="400" height="120" viewBox="0 0 400 120">
+            <rect x="40" y="15" width="320" height="6" fill="#D32F2F" />
+            <text x="200" y="65" text-anchor="middle" class="svg-1" font-size="52" fill="#111" letter-spacing="1">LUCAS BUILT</text>
+            <rect x="40" y="75" width="320" height="6" fill="#D32F2F" />
+            <text x="200" y="105" text-anchor="middle" class="svg-1" font-size="24" fill="#111" letter-spacing="8">HOLDINGS</text>
+        </svg>
+    </div><h3>Logo 2 (Channel)</h3></a></div>
 </div>
+
+<h2 style="border-top: 1px solid #ddd; padding-top: 40px; margin-top: 20px;">Additional Properties</h2>
+<div style="display:flex; gap:20px; justify-content:center;">
+    <div style="text-align:center;"><a href="lucasland/index.html" style="text-decoration:none; color:inherit;"><div class="asset">
+        <svg width="400" height="120" viewBox="0 0 400 120">
+            <text x="200" y="75" text-anchor="middle" class="script-2" font-size="52" fill="#111">Lucas Land</text>
+        </svg>
+    </div><h3>Lucas Land Concepts</h3></a></div>
+</div>
+
 </div></body></html>
